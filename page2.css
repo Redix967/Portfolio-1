@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Asimovian&family=Cinzel:wght@400..900&family=Lexend:wght@100..900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  user-select: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Asimovian", sans-serif;
+}
+
+.second-page {
+  /* background-image: linear-gradient(
+    180deg,
+    #121212 10%,
+    #282828 50%,
+    #121212 90%
+  ); */
+  background-size: cover;
+  position: relative;
+}
+
+.second-main {
+  width: 90%;
+  height: 80vh;
+  position: absolute;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  /* background-color: aqua; */
+}
+
+.second-main .second-left {
+  height: 100%;
+  width: 50%;
+  /* background-color: green; */
+  border-right: 3px solid rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-main .second-right {
+  height: 100%;
+  width: 50%;
+  /* background-color: red; */
+  border-left: 3px solid rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-cards:hover{
+  scale: 1.05;
+  box-shadow: inset 0px 0px 20px 5px rgba(255, 255, 255, 0.5);
+}
+
+.second-right,
+.second-left {
+  gap: 80px;
+}
+
+.second-cards {
+  height: 250px;
+  width: 400px;
+  background-color: rgb(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  transition: 0.2s ease;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.second-cards .card-img{
+
+}
+
+.second-cards .card-title{
+  writing-mode: vertical-rl;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+  

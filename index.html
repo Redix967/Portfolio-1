@@ -1,0 +1,200 @@
+<!-- Im bad at javascript so my bad for the navigation bar issue -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redix</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="loader.js"></script>
+    <script defer src="scrollbar.js"></script>
+    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="page3.css">
+    <link rel="stylesheet" href="page4.css">
+    <script src="https://kit.fontawesome.com/19f2bcb6ac.js" crossorigin="anonymous"></script>
+    <script defer src="navactive.js"></script>
+    <link rel="icon" type="image/png" href="assets/icon.png">
+</head>
+
+<body>
+
+    <!-- pre loader -->
+    <div class="loader-holder">
+        <div class="loader">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+            <div class="box box4"></div>
+        </div>
+    </div>
+
+    <!-- first page -->
+    <video playsinline autoplay muted loop class="first-page-video">
+        <source src="assets/Live Wallpaper Anime HD⧸4K - Samurai Autumn [fKcF32dmcDk].webm">
+    </video>
+    <div class="first-page page">
+
+
+        <div class="first-page-content">
+            <div class="navigation">
+                <ul>
+                    <div id="nav-highlighter"></div>
+                    <li><a href="#" class="nav">Home</a></li>
+                    <li><a href="#page2" class="nav">Projects</a></li>
+                    <li><a href="#page3" class="nav">About</a></li>
+                    <li><a href="#page4" class="nav">Contact</a></li>
+                </ul>
+            </div>
+            <div class="scroll-bar">
+                <div id="scroll-progress"></div>
+            </div>
+            <audio id="myAudio" src="your-audio-file.mp3" loop></audio>
+            <!-- <div class="audio-btn">
+                <i class="fa-solid fa-volume-high on"></i>
+                <i class="fa-solid fa-volume-xmark off"></i>
+            </div> -->
+
+            <!-- hero text -->
+            <div class="hero">
+                <div class="hero-head">
+                    <h2 class="redi">Redi</h2>
+                    <h2 class="hero-x">x</h2>
+                </div>
+                <div class="hero-btn">
+                    <button class="btn1"><a href="#page4">Socials</a></button><button class="btn2"><a href="#page3">Know
+                            More</a></button>
+                </div>
+            </div>
+
+            <!-- experimental designs -->
+            <div class="scroll">
+                <h2>---Scroll</h2>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- second page -->
+    <div class="second-page page" id="page2">
+
+        <div class="second-main">
+            <div class="second-left">
+
+                <div class="second-cards" style="transform: translateX(30%);">
+                    <div class="card-img"></div>
+                    <div class="card-title">Project 1</div>
+                </div>
+                <div class="second-cards" style="transform: translateX(-10%);">
+                    <div class="card-img"></div>
+                    <div class="card-title">Project 2</div>
+                </div>
+
+            </div>
+            <div class="second-right">
+                <div class="second-cards" style="transform: translateX(-30%);">
+                    <div class="card-img"></div>
+                    <div class="card-title">Project 3</div>
+                </div>
+                <div class="second-cards" style="transform: translateX(10%);">
+                    <div class="card-img"></div>
+                    <div class="card-title">Project 4</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- third page -->
+    <div class="third-page page" id="page3">
+
+        <div class="third-grid">
+            <div class="div1 card">
+                <h2>3+ Months</h2>
+            </div>
+            <div class="div2 card">
+                <h2><a href="https://github.com/Redix967">Git</a></h2>
+            </div>
+            <div class="div3 card">
+                <h2>C++/Java</h2>
+            </div>
+            <div class="div4 card">
+                <h2>Figma/Spline</h2>
+            </div>
+
+
+            <div class="div5 card">
+                <!-- icons of front end -->
+                <h2>HOVER ME!</h2>
+                <i class="fa-brands fa-html5 html"></i>
+                <i class="fa-brands fa-css3-alt css"></i>
+                <i class="fa-brands fa-js js"></i>
+                <i class="fa-brands fa-react react"></i>
+            </div>
+
+
+            <div class="div6 card">
+                <h2>Out Of Skills ATP</h2>
+                <i class="fa-solid fa-face-frown"></i>
+
+                <!-- icons for something else -->
+
+            </div>
+            <div class="div7 card">
+                <div class="about-me-content">
+                    <h1>Satyam Sharma</h1>
+                    <p class="subtitle">Developer | Creative Thinker | Problem Solver</p>
+                    <div class="divider"></div>
+                    <p class="bio">
+                        I am a passionate developer with a love for building elegant and efficient digital experiences.
+                        With a foundation in Web Development, I thrive on turning complex problems into beautiful,
+                        intuitive solutions.
+                    </p>
+                    <p class="bio">
+                        When I'm not at my keyboard, I enjoy exploring new technologies and finding inspiration in the
+                        world around me. Let's connect and create something amazing together.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="forth-page page" id="page4">
+
+        <section id="contact-me" class="contact-section">
+            <div class="contact-form-container">
+                <h2>Get in Touch</h2>
+                <form action="#" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <div class="footer">
+            <ul>
+                <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
